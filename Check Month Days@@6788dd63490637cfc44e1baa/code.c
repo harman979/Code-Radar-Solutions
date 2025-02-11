@@ -15,13 +15,13 @@ int main(){
         else if(a==2){
             printf("%d",28);
         }
-        else if(a%2==0){
+        else (a%2==0){
             printf("%d",30);
         }
-        else{
-            printf("Invalid month");
-        }
         break;
+    }
+    else{
+        printf("Invalid month")
     }
     return 0;
 }
