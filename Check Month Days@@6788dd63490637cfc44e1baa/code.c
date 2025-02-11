@@ -12,6 +12,7 @@ int main(){
         else{
             printf("%d",30);
         }
+        break;
     }
     return 0;
 }
