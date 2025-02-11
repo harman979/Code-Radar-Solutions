@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a,i;
+    int a;
     scanf("%d",&a);
     while(a<=12){
         if(a%2!=0){
