@@ -2,20 +2,18 @@
 
 int main() {
     char c;
-    scanf("%c", &c); // Input a character
-
-    // Checking the traffic light signal
-    if(c == 'R') {  // Corrected to equality check (==)
+    scanf("%c", &c); 
+    if(c == 'R') {  
         printf("Stop");
     }
-    else if(c == 'G') {  // Corrected to equality check (==)
+    else if(c == 'G') {  
         printf("Go");
     }
-    else if(c == 'Y') {  // Corrected to equality check (==)
+    else if(c == 'Y') { 
         printf("Slow Down");
     }
     else {
-        printf("Invalid");  // Invalid input case
+        printf("Invalid input");  
     }
 
     return 0;
