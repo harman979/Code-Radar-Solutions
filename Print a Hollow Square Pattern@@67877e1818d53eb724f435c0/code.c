@@ -5,7 +5,7 @@ int main(){
     for(i=1;i<=a;i++){
         for(j=1;j<=a;j++){
             if(i==1 ||j ==1||i==a|| j==a){
-                printf("* ");
+                printf("*");
             }
         }printf("\n");
     }
