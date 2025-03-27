@@ -6,7 +6,7 @@ int main(){
     for(i=0;i<=n-1;i++){
         scanf("%d",&arr[i]);
     }
-    int coue=0,couo;
+    int coue=0,couo=0;
     for(i=0;i<=n-1;i++){
         if(arr[i]==0){
             coue++;
