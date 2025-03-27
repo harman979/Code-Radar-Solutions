@@ -11,8 +11,10 @@ int main(){
         if(arr[i]==0){
             coue++;
         }
-        else{
-            couo++;
+    }
+    for(i=0;i<=n-1;i++){
+        if(arr[i]!=0){
+            coueo++;
         }
     }
     printf("%d %d",coue,couo);
