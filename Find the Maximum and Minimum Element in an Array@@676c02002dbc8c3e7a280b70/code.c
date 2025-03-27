@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
     int n,arr[n],max,min;
     scanf("%d",&n);
